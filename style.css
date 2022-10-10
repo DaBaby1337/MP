@@ -1,0 +1,122 @@
+/* lato-regular - latin */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&family=Source+Sans+Pro:wght@600;700&display=swap');
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+/*Header styles start*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .9s linear;
+    padding-bottom: 20px;
+    z-index: 2;
+}
+.header_active{
+background: url(img/bg-head-active.jpg);
+}
+.header_logo-pic{
+    max-width: 100px;
+    max-height: 100px;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+   justify-content: space-between;
+   padding-top: 50px;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item{
+    margin-right: 82px;
+}
+.header_item:last-child{
+    margin-right: 0px;
+}
+.header_link{
+    color: black;
+    text-decoration: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
+}
+/*Header styles end*/
+
+/*Intro styles start*/
+
+.intro{
+    height: 100vh;
+    background: url(img/bg-head.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 220px;
+}
+
+.intro_title{
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    color: black;
+    margin-bottom: 22px;
+}
+.intro_subtitle{
+    line-height: 35px;
+    font-size: 29px;
+}
+/*Intro styles end*/
+
+.two_part{
+    padding-top: 80px;
+    background-color:#dce1e6;
+}
+.wrapper-vk{
+    background-color: white;
+    padding: 90px;
+    border-radius: 80px;
+}
+.three_part{
+    padding-top: 80px;
+    background-color:#dce1e6;
+}
+/*CALC START*/
+.inp{
+    width: 160px;
+    height: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+.formula{
+    margin-bottom: 40px;
+}
+.pic-formula{
+    margin-bottom: 20px;
+}
+.res{
+    border: 2px solid red;
+    margin-top: 20px;
+    padding: 10px;
+}
+/*CALC START*/
